@@ -19,13 +19,13 @@ a {
 }
 
 .wrapper {
-    padding: 25px 0;
+    padding: 2% 0;
 }
 
 body > header {
-    margin-bottom: 20px;
+    margin-bottom: 2%;
     background: white;
-    box-shadow: 1px 0px 8px rgb(200, 200, 200);
+    box-shadow: 4em 0em 8em rgb(200, 200, 200);
 }
 
 header .logo-search form  {
@@ -34,16 +34,21 @@ header .logo-search form  {
 
 header .user {
     float: right;
+    font-size: 0.5em;
+}
+
+header .btn .btn-secondary .dropdown-toggle{
+    color: white;
 }
 
 header .user a {
-    font-size: 13px;
+    font-size: 1.3em;
     color: #89949b;
-    padding-top: 5px;
+    padding-top: 0.2%;
 }
 
 main h2 {
-    margin-top: 4px;
+    margin-top: 0.4%;
 }
 
 
@@ -54,13 +59,13 @@ main article {
 h3 {
     color: #b8c3c9;
     text-transform: uppercase;
-    font-size: 11px;
+    font-size: 1.1em;
     font-weight: normal;
-    margin-bottom: 10px;
+    margin-bottom: 0.1%;
 }
 
 nav ul li a { 
-    font-size: 14px;
+    font-size: 0.7em;
     font-weight: normal;
     color: #828c92;
 }
@@ -70,46 +75,48 @@ nav ul li a:hover {
 }
 
 nav ul li {
-    margin-top: 5px;
+    margin-top: 0.5%;
 }
 
 main header aside img {
-    border: 1px solid #dadada;
+    border: 0.1em solid #dadada;
     border-radius: 50%;
-    box-shadow: 0 0 5px #cecece;
+    box-shadow: 0 0 0.5em #cecece;
 }
 
 nav ul li:last-child {
-    margin-bottom: 30px;
+    margin-bottom: 3em;
 }
 
 h1 {
     color: #4b5c66;
-    font-size: 24px;
+    font-size: 1.4em;
     font-weight: normal;
-    margin: 0 0 8px 0;
+    margin: 0 0 0.4em 0;
 }
 
 .name p { 
     color: #a0aab1;
-    font-size: 12px;
+    font-size: 0.8em;
 }
 
 .name p img { 
-    margin-left: 12px;
+    margin-left: 2em;
 }
+
+
 
 
 .stats-links {
     color: #4b5c66;
-    font-size: 12px;
-    padding: 15px 0px 10px 0px;
-    border-bottom: 1px solid #e1e6e9;
-    margin-bottom: 20px;
+    font-size: 0.8em;
+    padding: 1.5% 0% 1% 0%;
+    border-bottom: 0.2% solid #e1e6e9;
+    margin-bottom: 2%;
 }
 
 .stats-links span, .stats-links a {
-    margin-right: 20px;
+    margin-right: 2.0%;
 }
 
 .stats-links a:last-child {
@@ -117,13 +124,13 @@ h1 {
 }
 
 .stats-links a {
-    font-size: 12px;
+    font-size: 1em;
     font-weight: normal;
     color: #4b5c66;
 }
 
 h2 {
-    font-size: 20px;
+    font-size: 1.8em;
     font-weight: normal;
     color: #4b5c66;
 }
@@ -133,17 +140,17 @@ header form {
 }
 
 input.search {
-    background: url("../img/icon/search.png") #ebeff1 no-repeat 8px;
+    background: url("../img/icon/search.png") #ebeff1 no-repeat 6%;
     box-shadow: none;
-    height: 28px;
+    height: 28%;
     width: 100%;
-    font-size: 13px;
-    padding: 3px 6px 3px 25px;
-    border: 1px solid #d0dde9;
+    font-size: 1.1em;
+    padding: 0.5em 0.9em 0.2em 0.5em;
+    border: 0.1em solid #d0dde9;
     margin: 0;
-    border-radius: 15px;
-    top: 11px;
-    box-shadow: inset 1px 1px 5px #d5d5d5;
+    border-radius: 15em;
+    top: 11em;
+    box-shadow: inset 0.1em 0.1em 0.5em #d5d5d5;
 }
 
 input.submit {
@@ -151,10 +158,10 @@ input.submit {
 }
 
 .station {
-    font-size: 12px;
+    font-size: 0.8em;
     color: #008fd5;
-    border-radius: 5px;
-    border: 1px solid #b8c3c9;
+    border-radius: 0.5em;
+    border: 0.1em solid #b8c3c9;
     cursor: pointer;
     padding: 7px 10px 7px 30px;
     box-shadow: 1px 1px #d5d5d5;
