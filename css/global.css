@@ -163,9 +163,9 @@ input.submit {
     border-radius: 0.5em;
     border: 0.1em solid #b8c3c9;
     cursor: pointer;
-    padding: 7px 10px 7px 30px;
-    box-shadow: 1px 1px #d5d5d5;
-    background: url("../img/icon/station.png") no-repeat 8px;
+    padding: 0.7em 1em 0.7em 3em;
+    box-shadow: 0.1em 0.1em #d5d5d5;
+    background: url("../img/icon/station.png") no-repeat 0.8em;
     transition: all 0.4s;
 }
 
@@ -177,43 +177,43 @@ input.submit {
 
 
 #albums article {
-    font-size: 13px;
+    font-size: 0.8em;
     color: #89949b;
-    margin: 10px 0;
+    margin: 1em 0;
 }
 
 #albums article img {
-    border: 1px solid #cbcbcb;
+    border: 0.1em solid #cbcbcb;
     transition: all 0.3s;
     width: 100%;
 }
 
 #albums article img:hover {
-    box-shadow: 0 0 15px #848484;
+    box-shadow: 0 0 1.5em #848484;
     transform: scale(1.1) rotate(-3deg);
 }
 
 #albums article figcaption {
     color: #4b5c66;
-    margin-top: 6px;
+    margin-top: 0.6em;
     white-space: nowrap;
     text-overflow: ellipsis;
 }
 
 #albums article .artist, #albums article .count {
-    margin-top: 4px;
+    margin-top: O.4em;
     white-space: nowrap;
     text-overflow: ellipsis;
 }
 
 #albums .explicit {
     color: #ff5d5d;
-    margin-left: 5px;
+    margin-left: 0.5em;
 }
 
 nav.browse a, nav.music a {
-    padding-left: 20px;
-    padding-top: 2px;
+    padding-left: 2em;
+    padding-top: 0.2em;
 }
 
 nav a.heavy { background: url("../img/icon/heavy.png") no-repeat 0px; }
