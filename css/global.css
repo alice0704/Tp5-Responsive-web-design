@@ -9,6 +9,7 @@
     font-family: 'My Lucida', Console;
 }
 
+
 body {
     background: linear-gradient(to bottom, #efefef, white) no-repeat;
 }
@@ -32,6 +33,11 @@ header .logo-search form  {
     width: 50%;
 }
 
+@media (max-width: 30em){
+header form { display: none; }
+}
+
+
 header .user {
     float: right;
     font-size: 0.5em;
@@ -45,7 +51,14 @@ header .user a {
     font-size: 1.3em;
     color: #89949b;
     padding-top: 0.2%;
+
 }
+
+
+@media (max-width: 30em){
+main header p a { display: none; }
+}
+
 
 main h2 {
     margin-top: 0.4%;
@@ -95,10 +108,13 @@ h1 {
     margin: 0 0 0.4em 0;
 }
 
+
 .name p { 
     color: #a0aab1;
     font-size: 0.8em;
 }
+
+
 
 .name p img { 
     margin-left: 2em;
@@ -216,13 +232,11 @@ nav.browse a, nav.music a {
     padding-top: 0.2em;
 }
 
-nav a.heavy { background: url("../img/icon/heavy.png") no-repeat 0px; }
-nav a.recent { background: url("../img/icon/recent.png") no-repeat 0px; }
-nav a.top { background: url("../img/icon/top.png") no-repeat 0px; }
-nav a.new { background: url("../img/icon/new.png") no-repeat 0px; }
-nav a.collection { background: url("../img/icon/collection.png") no-repeat 0px; }
-nav a.history { background: url("../img/icon/history.png") no-repeat 0px; }
-
-
+nav a.heavy { background: url("../img/icon/heavy.png") no-repeat 0em; }
+nav a.recent { background: url("../img/icon/recent.png") no-repeat 0em; }
+nav a.top { background: url("../img/icon/top.png") no-repeat 0em; }
+nav a.new { background: url("../img/icon/new.png") no-repeat 0em; }
+nav a.collection { background: url("../img/icon/collection.png") no-repeat 0em; }
+nav a.history { background: url("../img/icon/history.png") no-repeat 0em; }
 
 
