@@ -1,3 +1,6 @@
+TP2 Alice Sabot
+OCRES G2
+
 ## **TP Responsive Web Design**
 
 ![](img/exemple.gif)
